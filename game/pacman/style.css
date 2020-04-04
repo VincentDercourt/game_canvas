@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 1px black solid;
+}
+body {
+    height: 100vh;
+    background-image: url("img/background.jpg");
+}
+h1 {
+    text-align: center;
+    font-size: 60px;
+    color: red;
+}
+.score {
+    text-align: center;
+    font-size: 25px;
+    color: red;
+}
+canvas {
+    display: block;
+    margin: 0 auto;
+    opacity: 0.8;
+    border: 10px solid grey;
+}

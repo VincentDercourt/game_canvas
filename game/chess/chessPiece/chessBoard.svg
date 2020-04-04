@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 642 642" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="echiquier">
+        <g id="case-blanche" serif:id="case blanche">
+            <rect x="0" y="0" width="80" height="80" style="fill:white;stroke:black;stroke-width:2.5px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,0,320)">
+            <g id="case-blanche1" serif:id="case blanche">
+                <rect x="0" y="0" width="80" height="80" style="fill:white;stroke:black;stroke-width:2.5px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,80,400)">
+            <g id="case-blanche2" serif:id="case blanche">
+                <rect x="0" y="0" width="80" height="80" style="fill:white;stroke:black;stroke-width:2.5px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,160,480)">
+            <g id="case-blanche3" serif:id="case blanche">
+                <rect x="0" y="0" width="80" height="80" style="fill:white;stroke:black;stroke-width:2.5px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,240,560)">
+            <g id="case-blanche4" serif:id="case blanche">
+                <rect x="0" y="0" width="80" height="80" style="fill:white;stroke:black;stroke-width:2.5px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,0,480)">
+            <g id="case-blanche5" serif:id="case blanche">
+                <rect x="0" y="0" width="80" height="80" style="fill:white;stroke:black;stroke-width:2.5px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,80,560)">
+            <g id="case-blanche6" serif:id="case blanche">
+                <rect x="0" y="0" width="80" height="80" style="fill:white;stroke:black;stroke-width:2.5px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,160,0)">
+            <g id="case-blanche7" serif:id="case blanche">
+                <rect x="0" y="0" width="80" height="80" style="fill:white;stroke:black;stroke-width:2.5px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,240,80)">
+            <g id="case-blanche8" serif:id="case blanche">
+                <rect x="0" y="0" width="80" height="80" style="fill:white;stroke:black;stroke-width:2.5px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,320,160)">
+            <g id="case-blanche9" serif:id="case blanche">
+                <rect x="0" y="0" width="80" height="80" style="fill:white;stroke:black;stroke-width:2.5px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,400,240)">
+            <g id="case-blanche10" serif:id="case blanche">
+                <rect x="0" y="0" width="80" height="80" style="fill:white;stroke:black;stroke-width:2.5px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,480,320)">
+            <g id="case-blanche11" serif:id="case blanche">
+                <rect x="0" y="0" width="80" height="80" style="fill:white;stroke:black;stroke-width:2.5px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,560,400)">
+            <g id="case-blanche12" serif:id="case blanche">
+                <rect x="0" y="0" width="80" height="80" style="fill:white;stroke:black;stroke-width:2.5px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,320,0)">
+            <g id="case-blanche13" serif:id="case blanche">
+                <rect x="0" y="0" width="80" height="80" style="fill:white;stroke:black;stroke-width:2.5px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,400,80)">
+            <g id="case-blanche14" serif:id="case blanche">
+                <rect x="0" y="0" width="80" height="80" style="fill:white;stroke:black;stroke-width:2.5px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,480,160)">
+            <g id="case-blanche15" serif:id="case blanche">
+                <rect x="0" y="0" width="80" height="80" style="fill:white;stroke:black;stroke-width:2.5px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,560,240)">
+            <g id="case-blanche16" serif:id="case blanche">
+                <rect x="0" y="0" width="80" height="80" style="fill:white;stroke:black;stroke-width:2.5px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,480,0)">
+            <g id="case-blanche17" serif:id="case blanche">
+                <rect x="0" y="0" width="80" height="80" style="fill:white;stroke:black;stroke-width:2.5px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,560,80)">
+            <g id="case-blanche18" serif:id="case blanche">
+                <rect x="0" y="0" width="80" height="80" style="fill:white;stroke:black;stroke-width:2.5px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,80,80)">
+            <g id="case-blanche19" serif:id="case blanche">
+                <rect x="0" y="0" width="80" height="80" style="fill:white;stroke:black;stroke-width:2.5px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,160,160)">
+            <g id="case-blanche20" serif:id="case blanche">
+                <rect x="0" y="0" width="80" height="80" style="fill:white;stroke:black;stroke-width:2.5px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,240,240)">
+            <g id="case-blanche21" serif:id="case blanche">
+                <rect x="0" y="0" width="80" height="80" style="fill:white;stroke:black;stroke-width:2.5px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,320,320)">
+            <g id="case-blanche22" serif:id="case blanche">
+                <rect x="0" y="0" width="80" height="80" style="fill:white;stroke:black;stroke-width:2.5px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,400,400)">
+            <g id="case-blanche23" serif:id="case blanche">
+                <rect x="0" y="0" width="80" height="80" style="fill:white;stroke:black;stroke-width:2.5px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,480,480)">
+            <g id="case-blanche24" serif:id="case blanche">
+                <rect x="0" y="0" width="80" height="80" style="fill:white;stroke:black;stroke-width:2.5px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,560,560)">
+            <g id="case-blanche25" serif:id="case blanche">
+                <rect x="0" y="0" width="80" height="80" style="fill:white;stroke:black;stroke-width:2.5px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,0,160)">
+            <g id="case-blanche26" serif:id="case blanche">
+                <rect x="0" y="0" width="80" height="80" style="fill:white;stroke:black;stroke-width:2.5px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,80,240)">
+            <g id="case-blanche27" serif:id="case blanche">
+                <rect x="0" y="0" width="80" height="80" style="fill:white;stroke:black;stroke-width:2.5px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,160,320)">
+            <g id="case-blanche28" serif:id="case blanche">
+                <rect x="0" y="0" width="80" height="80" style="fill:white;stroke:black;stroke-width:2.5px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,240,400)">
+            <g id="case-blanche29" serif:id="case blanche">
+                <rect x="0" y="0" width="80" height="80" style="fill:white;stroke:black;stroke-width:2.5px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,320,480)">
+            <g id="case-blanche30" serif:id="case blanche">
+                <rect x="0" y="0" width="80" height="80" style="fill:white;stroke:black;stroke-width:2.5px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,400,560)">
+            <g id="case-blanche31" serif:id="case blanche">
+                <rect x="0" y="0" width="80" height="80" style="fill:white;stroke:black;stroke-width:2.5px;"/>
+            </g>
+        </g>
+        <g id="case-noir" serif:id="case noir">
+            <rect x="80" y="0" width="80" height="80" style="stroke:black;stroke-width:2.5px;"/>
+        </g>
+        <g id="case-noir1" serif:id="case noir" transform="matrix(1,0,0,1,320,0)">
+            <rect x="80" y="0" width="80" height="80" style="stroke:black;stroke-width:2.5px;"/>
+        </g>
+        <g id="case-noir2" serif:id="case noir" transform="matrix(1,0,0,1,400,80)">
+            <rect x="80" y="0" width="80" height="80" style="stroke:black;stroke-width:2.5px;"/>
+        </g>
+        <g id="case-noir3" serif:id="case noir" transform="matrix(1,0,0,1,480,160)">
+            <rect x="80" y="0" width="80" height="80" style="stroke:black;stroke-width:2.5px;"/>
+        </g>
+        <g id="case-noir4" serif:id="case noir" transform="matrix(1,0,0,1,480,0)">
+            <rect x="80" y="0" width="80" height="80" style="stroke:black;stroke-width:2.5px;"/>
+        </g>
+        <g id="case-noir5" serif:id="case noir" transform="matrix(1,0,0,1,-80,80)">
+            <rect x="80" y="0" width="80" height="80" style="stroke:black;stroke-width:2.5px;"/>
+        </g>
+        <g id="case-noir6" serif:id="case noir" transform="matrix(1,0,0,1,80,80)">
+            <rect x="80" y="0" width="80" height="80" style="stroke:black;stroke-width:2.5px;"/>
+        </g>
+        <g id="case-noir7" serif:id="case noir" transform="matrix(1,0,0,1,160,160)">
+            <rect x="80" y="0" width="80" height="80" style="stroke:black;stroke-width:2.5px;"/>
+        </g>
+        <g id="case-noir8" serif:id="case noir" transform="matrix(1,0,0,1,240,240)">
+            <rect x="80" y="0" width="80" height="80" style="stroke:black;stroke-width:2.5px;"/>
+        </g>
+        <g id="case-noir9" serif:id="case noir" transform="matrix(1,0,0,1,320,320)">
+            <rect x="80" y="0" width="80" height="80" style="stroke:black;stroke-width:2.5px;"/>
+        </g>
+        <g id="case-noir10" serif:id="case noir" transform="matrix(1,0,0,1,400,400)">
+            <rect x="80" y="0" width="80" height="80" style="stroke:black;stroke-width:2.5px;"/>
+        </g>
+        <g id="case-noir11" serif:id="case noir" transform="matrix(1,0,0,1,480,480)">
+            <rect x="80" y="0" width="80" height="80" style="stroke:black;stroke-width:2.5px;"/>
+        </g>
+        <g id="case-noir12" serif:id="case noir" transform="matrix(1,0,0,1,0,160)">
+            <rect x="80" y="0" width="80" height="80" style="stroke:black;stroke-width:2.5px;"/>
+        </g>
+        <g id="case-noir13" serif:id="case noir" transform="matrix(1,0,0,1,80,240)">
+            <rect x="80" y="0" width="80" height="80" style="stroke:black;stroke-width:2.5px;"/>
+        </g>
+        <g id="case-noir14" serif:id="case noir" transform="matrix(1,0,0,1,160,320)">
+            <rect x="80" y="0" width="80" height="80" style="stroke:black;stroke-width:2.5px;"/>
+        </g>
+        <g id="case-noir15" serif:id="case noir" transform="matrix(1,0,0,1,240,400)">
+            <rect x="80" y="0" width="80" height="80" style="stroke:black;stroke-width:2.5px;"/>
+        </g>
+        <g id="case-noir16" serif:id="case noir" transform="matrix(1,0,0,1,320,480)">
+            <rect x="80" y="0" width="80" height="80" style="stroke:black;stroke-width:2.5px;"/>
+        </g>
+        <g id="case-noir17" serif:id="case noir" transform="matrix(1,0,0,1,400,560)">
+            <rect x="80" y="0" width="80" height="80" style="stroke:black;stroke-width:2.5px;"/>
+        </g>
+        <g id="case-noir18" serif:id="case noir" transform="matrix(1,0,0,1,-80,240)">
+            <rect x="80" y="0" width="80" height="80" style="stroke:black;stroke-width:2.5px;"/>
+        </g>
+        <g id="case-noir19" serif:id="case noir" transform="matrix(1,0,0,1,0,320)">
+            <rect x="80" y="0" width="80" height="80" style="stroke:black;stroke-width:2.5px;"/>
+        </g>
+        <g id="case-noir20" serif:id="case noir" transform="matrix(1,0,0,1,80,400)">
+            <rect x="80" y="0" width="80" height="80" style="stroke:black;stroke-width:2.5px;"/>
+        </g>
+        <g id="case-noir21" serif:id="case noir" transform="matrix(1,0,0,1,160,480)">
+            <rect x="80" y="0" width="80" height="80" style="stroke:black;stroke-width:2.5px;"/>
+        </g>
+        <g id="case-noir22" serif:id="case noir" transform="matrix(1,0,0,1,240,560)">
+            <rect x="80" y="0" width="80" height="80" style="stroke:black;stroke-width:2.5px;"/>
+        </g>
+        <g id="case-noir23" serif:id="case noir" transform="matrix(1,0,0,1,-80,400)">
+            <rect x="80" y="0" width="80" height="80" style="stroke:black;stroke-width:2.5px;"/>
+        </g>
+        <g id="case-noir24" serif:id="case noir" transform="matrix(1,0,0,1,0,480)">
+            <rect x="80" y="0" width="80" height="80" style="stroke:black;stroke-width:2.5px;"/>
+        </g>
+        <g id="case-noir25" serif:id="case noir" transform="matrix(1,0,0,1,80,560)">
+            <rect x="80" y="0" width="80" height="80" style="stroke:black;stroke-width:2.5px;"/>
+        </g>
+        <g id="case-noir26" serif:id="case noir" transform="matrix(1,0,0,1,-80,560)">
+            <rect x="80" y="0" width="80" height="80" style="stroke:black;stroke-width:2.5px;"/>
+        </g>
+        <g id="case-noir27" serif:id="case noir" transform="matrix(1,0,0,1,160,0)">
+            <rect x="80" y="0" width="80" height="80" style="stroke:black;stroke-width:2.5px;"/>
+        </g>
+        <g id="case-noir28" serif:id="case noir" transform="matrix(1,0,0,1,240,80)">
+            <rect x="80" y="0" width="80" height="80" style="stroke:black;stroke-width:2.5px;"/>
+        </g>
+        <g id="case-noir29" serif:id="case noir" transform="matrix(1,0,0,1,320,160)">
+            <rect x="80" y="0" width="80" height="80" style="stroke:black;stroke-width:2.5px;"/>
+        </g>
+        <g id="case-noir30" serif:id="case noir" transform="matrix(1,0,0,1,400,240)">
+            <rect x="80" y="0" width="80" height="80" style="stroke:black;stroke-width:2.5px;"/>
+        </g>
+        <g id="case-noir31" serif:id="case noir" transform="matrix(1,0,0,1,480,320)">
+            <rect x="80" y="0" width="80" height="80" style="stroke:black;stroke-width:2.5px;"/>
+        </g>
+    </g>
+</svg>

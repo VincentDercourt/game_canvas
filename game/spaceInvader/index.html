@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TP Projet : Space Invaders</title>
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#">
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <h1>Space Invaders Game</h1>
+
+    <div id="gameOverLose">
+        <input type="button" onclick='window.location.reload(false)' value="Recommencer"/>
+        <p>GAME OVER...YOU LOSE :-(  !!</p>
+    </div>
+
+    <div id="gameOverWin">
+        <input type="button" onclick='window.location.reload(false)' value="Recommencer"/>
+        <p>GAME OVER...YOU WIN :-)  !!</p>
+    </div>
+
+        <img id="img" src="alien.png" alt="alien">
+
+    <canvas id="canvas"></canvas>
+    
+    <script src="script.js" ></script>
+</body>
+</html>

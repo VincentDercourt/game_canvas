@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="assets/img/gamepad-alt.svg" type="image/svg">
+  <title>Site de jeux en Canvas</title>
+</head>
+<body>
+<section id="body">
+  <header>
+    <h1>Site de jeux en Canvas</h1>
+  </header>
+  <main id="main">
+    <nav role="navigation">
+      <ul>
+        <li class="null openNav cat">
+          <p class="description hidden">Réduire</p>
+          <img src="assets/img/arrow-from-left.svg" alt="Flèche vers la droite ou la gauche">
+        </li>
+        <li>
+          <img src="assets/img/home.svg" alt="Accueil Icon">
+          <p class="description hidden">Home</p>
+        </li>
+        <li class="cat">
+          <img src="assets/img/gamepad-alt.svg" alt="Manette Icon">
+          <p class="description hidden">Liste des jeux</p>
+        </li>
+        <li id="pacman">
+          <a href="#pacman">
+            <img src="assets/img/pacman.svg" alt="Pacman Icon">
+            <p class="description hidden">Pacman</p>
+          </a>
+        </li>
+        <li id="spaceInvader" class="active">
+          <a href="#spaceInvader">
+            <img src="assets/img/game-invader.svg" alt="Space invader Icon">
+            <p class="description hidden">Space Invader</p>
+          </a>
+        </li>
+        <li id="chess">
+          <a href="#chess">
+            <img src="assets/img/knightBlack.svg" alt="Cavalier Icon">
+            <p class="description hidden">Échec</p>
+          </a>
+        </li>
+        <li id="puissance4">
+          <a href="#puissance4">
+            <img src="assets/img/puissance4.png" alt="Puissance Icon">
+            <p class="description hidden">Puissance 4</p>
+          </a>
+        </li>
+        <li>
+          <img src="assets/img/snake.svg" alt="Snake Icon">
+          <p class="description hidden">Snake</p>
+        </li>
+      </ul>
+    </nav>
+    <section id="page"></section>
+  </main>
+</section>
+<script src="assets/js/script.js"></script>
+</body>
+</html>

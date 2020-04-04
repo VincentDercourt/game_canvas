@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: red;
+}
+
+#gameOverLose {
+    text-align: center;
+    opacity: 0.7;
+    font-weight: bold;
+    display: none;
+    margin-top: 70px;
+    font-size: 40px;
+    color: red;
+}
+
+#gameOverWin {
+    text-align: center;
+    opacity: 0.7;
+    font-weight: bold;
+    display: none;
+    margin-top: 70px;
+    font-size: 40px;
+    color: red;
+}
+
+#img{
+    width: 50px;
+    height: 50px;
+    visibility: hidden;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
+body{
+    background-image: url(body.jpg);
+    background-repeat: no-repeat;
+}
+
+canvas{
+    display: block;
+    margin: 0 auto;
+    background-image: url(canvasBackground.png);
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}
+
