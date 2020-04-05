@@ -9,6 +9,9 @@ function init() {
     const parentMain = this.closest("main#main");
     const parentUl = this.closest("main#main>nav>ul");
     parentMain.classList.toggle("displayNav");
+    console.log(this.querySelector("img"));
+    this.querySelector("img").src = parentMain.classList.contains("displayNav") ? "assets/img/arrow-from-right.svg" : "assets/img/arrow-from-left.svg";
+    console.log(this.querySelector("img"));
     for(let elem of parentUl.querySelectorAll("p.description")){
       elem.classList.toggle("hidden");
     }
