@@ -1,9 +1,12 @@
 window.onload = init;
 
 function init() {
-  loadIframe("#page", `game/${getHash()}/index.html`);
-  for(let element of document.querySelectorAll("main#main>nav>ul li>a")){
-    element.onclick = onClick;
+  if(getHash()) {
+    loadIframe("#page", `game/${getHash()}/index.html`);
+    for (let element of document.querySelectorAll("main#main>nav>ul li>a")) {
+      element.onclick = onClick;
+    }
+    changeActive(getHash());
   }
   document.querySelector("li.openNav").onclick = function () {
     const parentMain = this.closest("main#main");
@@ -16,9 +19,10 @@ function init() {
       elem.classList.toggle("hidden");
     }
   };
-  changeActive(getHash());
-
-  document.querySelector("iframe").onload = resizeIframe;
+  let iframe = document.querySelector("iframe");
+  if(iframe) {
+    iframe.onload = resizeIframe;
+  }
 
   SimpleScrollbar.initAll();
 }
