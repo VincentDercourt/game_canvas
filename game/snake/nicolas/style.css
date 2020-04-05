@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+}
+
+h1, p{
+    text-align: center;
+    color: #7e0018;
+    opacity: 0.7;
+    font-size: 60px;
+}
+
+#gameOver {
+    text-align: center;
+    opacity: 0.7;
+    font-weight: bold;
+    display: none;
+    margin-top: 70px;
+    font-size: 30px;
+}
+
+body{
+    background-image: url(pexels.jpeg);
+    background-size: auto;
+}
+
+canvas{
+    margin: 0 auto;
+    display: block;
+    margin-top: 150px;
+
+}

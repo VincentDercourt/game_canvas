@@ -1,0 +1,43 @@
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: inherit;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+
+    margin: 0;
+    padding: 0;
+
+    background: grey;
+    overflow: hidden;
+}
+#canvas{
+    display: block;
+    margin: auto;
+
+    border: 5px solid red;
+    background: black;
+}
+kbd{
+    background-color: #eee;
+    border-radius: 3px;
+    border: 1px solid #b4b4b4;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7) inset;
+    color: #333;
+    display: inline-block;
+    font-size: .85em;
+    font-weight: 700;
+    line-height: 1;
+    padding: 2px 4px;
+    white-space: nowrap;
+}

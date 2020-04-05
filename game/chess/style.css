@@ -12,14 +12,13 @@ img{
     max-height: 100%;
 }
 body{
-    width: 100vw;
+    width: 100%;
     min-height: 100vh;
 
     margin: 0;
     padding: 0;
 
     background: grey;
-    //overflow: hidden;
 }
 #canvas{
     display: block;

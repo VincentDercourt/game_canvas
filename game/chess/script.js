@@ -11,7 +11,7 @@ window.onload = function () {
   /**
    * Settings for chess game
    */
-  const SIZE_CANVAS = 900; // Size of canvas in width and height
+  const SIZE_CANVAS = 600; // Size of canvas in width and height
   const SIZE_MARGE = 50; // size for space around
 
   const NUMBER_SQUARE = 8; // number box by line
@@ -60,7 +60,7 @@ window.onload = function () {
   drawBorder();
 
   // Initialization row number
-  let row = 0, rowInverse = 8;
+  let row = 0, rowInverse = 8, altColor=true;
 
   // Repeat as many times as there are boxes
   // The double row allows to reverse the line numbering
@@ -85,6 +85,8 @@ window.onload = function () {
     if (letter === "A") {
       row++;
       rowInverse--;
+      //altColor = (altColor) ? false : true;
+      altColor = (!altColor);
     }
     /**
      * for default settings
@@ -107,18 +109,27 @@ window.onload = function () {
     let y = rowInverse * SIZE_CASE + SIZE_MARGE;
     /**
      * for default settings
-     * A0 = (50 + 850) % 200 = 100
-     * B0 = (150 + 850) % 200 = 0
-     * C0 = (250 + 850) % 200 = 100
-     * D0 = (350 + 850) % 200 = 0
+     * A1 = (50 + 850) % 200 = 100
+     * B1 = (150 + 850) % 200 = 0
+     * C1 = (250 + 850) % 200 = 100
+     * D1 = (350 + 850) % 200 = 0
      * ............
-     * H0 = (850 + 850) % 200 = 100
-     * A1 = (50 + 750) % 200 = 0
-     * B1 = (150 + 750) % 200 = 100
+     * H1 = (850 + 850) % 200 = 100
+     * A2 = (50 + 750) % 200 = 0
+     * B2 = (150 + 750) % 200 = 100
      * ............
      * Allows to have alternately black and white boxes
      */
-    let color = (x+y) % 200 ? WHITE_SQUARE : DARK_SQUARE;
+    // let color = (x+y) % 200 ? WHITE_SQUARE : DARK_SQUARE;
+    let color;
+    if(altColor){
+      color = WHITE_SQUARE;
+      altColor = false;
+    }
+    else{
+      color = DARK_SQUARE;
+      altColor = true;
+    }
     let number = row;
     // Add a box to the list of boxes
     boxes[letter+number] = {
@@ -952,22 +963,22 @@ window.onload = function () {
         drawPieceCanvas(
           PATH_CHESS_PIECE + piece[piece.active ? "selected" : "img"],
           square.x,
-          square.y,
-          piece.imgWidth,
-          piece.imgHeight,
+          square.y
         );
       }
     }
   }
 
   function drawPieceCanvas(linkImg,x,y) {
-    let img = new Image(40,70);
+    let img = new Image(40 - (40 * 0.4),70 - (70 * 0.4));
     img.src = linkImg;
 
     img.onload = ()=>{
       CTX.beginPath();
-      CTX.drawImage(img, x + ((SIZE_CASE - img.width) / 2), y + ((SIZE_CASE - img.height) / 2));
+      CTX.drawImage(img, x + ((SIZE_CASE - img.width) / 2), y + ((SIZE_CASE - img.height) / 2), img.width, img.height);
     };
   }
+  
+  console.log(boxes);
 
 };
